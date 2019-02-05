@@ -149,7 +149,24 @@ class Project extends Component{
         }else if(this.state.activeTab===2) {
             return(
                 <div>
-                    <h1>this is go</h1>
+                   {/* project #1*/ }
+             <Cell col={4}> 
+                  <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+                  <CardTitle style={{color:'#fff', height:'176px', background: 
+                  'url(https://www.javatpoint.com/go/images/go-tutorial.jpg) center / cover'}}>GO Project#1</CardTitle>
+                    <CardText>
+                    some dummy text here some dummy text heresome dummy text heresome dummy text heresome dummy text here
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GITHUB</Button>
+                        <Button colored>codepen</Button>
+                        <Button colored>livedemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+                  </Cell>
                 </div>
             )
         }else if(this.state.activeTab===3) {
