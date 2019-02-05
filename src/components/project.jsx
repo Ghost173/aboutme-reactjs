@@ -172,7 +172,24 @@ class Project extends Component{
         }else if(this.state.activeTab===3) {
             return(
                 <div>
-                    <h1>this is python</h1>
+                  
+                  <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+                  <CardTitle style={{color:'#fff', height:'176px', background: 
+                  'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover'}}>Python Project#3</CardTitle>
+                    <CardText>
+                    some dummy text here some dummy text heresome dummy text heresome dummy text heresome dummy text here
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GITHUB</Button>
+                        <Button colored>codepen</Button>
+                        <Button colored>livedemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+                  
+                </div>
                 </div>
             )
         }
