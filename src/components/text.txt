@@ -1,0 +1,8 @@
+<section className="projet-gird">
+            <Grid className="projects-gird">
+                <Cell col="12"> 
+                    <div className="content"> {this.toggleCategories()}</div>
+                </Cell>
+            </Grid>
+               
+            </section>
