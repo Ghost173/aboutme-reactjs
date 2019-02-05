@@ -4,6 +4,8 @@
 # story 
 * A React based personal portfolio app using create-react-app
 
+
+
 # Start App
 Clone repo, install, cd into folder and run:
 
@@ -13,6 +15,7 @@ npm start
 ```
 # usefull links
 * colouers generate from uigradients [(https://uigradients.com/)](https://uigradients.com/)
+* [react js official documentations] (https://reactjs.org/)
 
 
 # screen shots 
