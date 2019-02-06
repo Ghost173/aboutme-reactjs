@@ -15,7 +15,7 @@ npm start
 ```
 # usefull links
 * colouers generate from uigradients [(https://uigradients.com/)](https://uigradients.com/)
-* [react js official documentations] (https://reactjs.org/)
+* [react js official documentations](https://reactjs.org/)
 
 
 # screen shots 
