@@ -20,7 +20,7 @@ npm start
 
 # screen shots 
 ## home page
-![Home](/screenshots/home.png)
+![Home_page](/screenshots/home.png)
 
 ## projects 
 ![projects](/screenshots/project.png)
